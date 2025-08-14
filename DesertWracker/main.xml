@@ -1,0 +1,88 @@
+<scene version="1.6.2" shadowVolume="200 50 200">
+	<script name="Drobilka" pos="0.0 10.2 0.0" file="MOD/script/Workedshredder.lua">
+		<vox pos="0.2 0.1 -4.3" file="MOD/shredder.vox">
+			<trigger name="trg" tags="trg" pos="0.0 0.5 0.3" type="box" size="2.6 2 1.7"/>
+			<vox pos="2.046 1.405 0.0" rot="0.0 0.0 45.0" file="MOD/part1.vox"/>
+			<vox pos="2.095 0.995 0.0" rot="0.0 0.0 45.0" file="MOD/part1.vox"/>
+			<script pos="-3.4 2.2 -0.05" file="MOD/script/Rotate me.lua">
+				<body name="3" tags="rychug" pos="1.5 -1.9 -0.15" rot="0.0 -90.0 0.0" dynamic="true">
+					<joint tags="rychug_joint" pos="-0.05 0.75 -0.4" type="hinge"/>
+					<vox tags="rychug" pos="0.3 -2.6 1.5" collide="true" file="MOD/rychug.vox"/>
+				</body>
+				<body name="1" tags="val_body1" pos="4.5 -1.3 0.0" dynamic="true">
+					<vox tags="val" pos="1.4 -0.35 0.15" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.3 -0.342 0.13" rot="3.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.2 -0.334 0.11" rot="7" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.1 -0.326 0.09" rot="10.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.0 -0.318 0.07" rot="14" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.9 -0.31 0.05" rot="17.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.8 -0.302 0.03" rot="21" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.7 -0.294 0.01" rot="24.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.6 -0.286 -0.01" rot="28" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.5 -0.278 -0.03" rot="31.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.4 -0.27 -0.05" rot="35" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.3 -0.262 -0.07" rot="38.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.2 -0.254 -0.09" rot="42" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.1 -0.246 -0.11" rot="45.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.0 -0.238 -0.13" rot="49" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.1 -0.23 -0.15" rot="52.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.2 -0.222 -0.17" rot="56" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.3 -0.214 -0.19" rot="59.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.4 -0.206 -0.21" rot="63.0" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.5 -0.198 -0.23" rot="66.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.6 -0.19 -0.25" rot="70" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.7 -0.182 -0.27" rot="73.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.8 -0.174 -0.29" rot="77" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-0.9 -0.166 -0.31" rot="80.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-1.0 -0.158 -0.33" rot="84" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="-1.1 -0.15 -0.35" rot="87.5" collide="true" prop="false" file="MOD/val.vox"/>
+				</body>
+				<body name="2" tags="val_body2" pos="3.7 -1.3 0.65" rot="-130.0 180.0 0.0" dynamic="true">
+					<vox tags="val" pos="0.3 -0.35 0.15" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.4 -0.329 0.158" rot="-3.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.5 -0.308 0.167" rot="-7" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.6 -0.287 0.175" rot="-10.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.7 -0.266 0.183" rot="-14" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.8 -0.245 0.192" rot="-17.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="0.9 -0.224 0.2" rot="-21" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.0 -0.203 0.208" rot="-24.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.1 -0.182 0.217" rot="-28" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.2 -0.161 0.225" rot="-31.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.3 -0.14 0.233" rot="-35" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.4 -0.119 0.242" rot="-38.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.5 -0.098 0.25" rot="-42" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.6 -0.077 0.258" rot="-45.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.7 -0.056 0.267" rot="-49" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.8 -0.035 0.275" rot="-52.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="1.9 -0.014 0.283" rot="-56" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.0 0.007 0.292" rot="-59.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.1 0.028 0.3" rot="-63" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.2 0.049 0.308" rot="-66.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.3 0.07 0.317" rot="-70" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.4 0.091 0.325" rot="-73.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.5 0.112 0.333" rot="-77" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.6 0.133 0.342" rot="-80.5" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.7 0.154 0.35" rot="-84" collide="true" prop="false" file="MOD/val.vox"/>
+					<vox tags="val" pos="2.8 0.15 0.35" rot="-87.5" collide="true" prop="false" file="MOD/val.vox"/>
+				</body>
+			</script>
+		</vox>
+	</script>
+	<voxbox pos="-25.0 10.2 -25.0" size="500 1 300" color="0.26 0.23 0.23"/>
+	<environment template="sunset" pos="0.0 11.5 0.0"/>
+	<vox tags="brown" pos="0.2 11.8 -6.5" rot="0.0 90.0 0.0" prop="true" file="MOD/prop/furniture/office_murky.vox" object="desk_boss_clean"/>
+	<vox tags="blue" pos="-1.5 10.3 -6.7" prop="true" file="MOD/part1.vox"/>
+	<vox pos="-1.5 10.3 -7.5" prop="true" file="MOD/part1.vox"/>
+	<vox tags="green" pos="-1.5 10.3 -5.9" prop="true" file="MOD/part1.vox"/>
+	<group name="Base" pos="0.0 10.2 0.0">
+		<script file="main.lua"/>
+		<script file="sandbox.lua" param0="unlimited=true"/>
+		<spawnpoint pos="20.0 18.7 -42.5" rot="0.0 -180.0 0.0"/>
+	</group>
+	<script pos="-12.0 11.3 -46.7" file="MOD/script/light.lua">
+		<script pos="11.5 15.4 78.8" file="MOD/script/DesertAnotherWTFTA.lua">
+			<voxbox tags="desert_base" pos="-24.35 -15.42 -91.62998" texture="9" size="256 256 256" brush="MOD/desert_base.vox"/>
+		</script>
+	</script>
+</scene>
+

@@ -1,0 +1,6 @@
+<prefab version="0.9.2">
+	<group id_="846383552" open_="true" name="instance=MOD/prop/furniture/desk.xml" pos="0.40001 0.0 -0.19999" rot="0.0 0.0 0.0">
+		<vox id_="1182210560" pos="0.0 0.1 0.1" rot="0.0 180.0 0.0" prop="true" file="MOD/prop/furniture/office_murky.vox" object="desk_boss_clean"/>
+	</group>
+</prefab>
+
